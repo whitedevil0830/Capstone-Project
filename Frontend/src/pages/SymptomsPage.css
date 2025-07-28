@@ -1,0 +1,293 @@
+.symptoms-page {
+    min-height: 100vh;
+    background-color: #f9fafb;
+}
+
+.symptoms-header {
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+    gap: 16px;
+}
+
+.back-link {
+    color: #6b7280;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.back-link:hover {
+    color: #3b82f6;
+}
+
+.symptoms-content {
+    padding: 32px 0;
+}
+
+.symptoms-header-section {
+    margin-bottom: 32px;
+}
+
+.symptoms-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 8px;
+}
+
+.symptoms-description {
+    color: #6b7280;
+    font-size: 16px;
+}
+
+.emergency-warning {
+    margin-bottom: 24px;
+}
+
+.warning-content {
+    background-color: #fef2f2;
+    border: 1px solid #fca5a5;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    gap: 16px;
+}
+
+.warning-icon {
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+.warning-text {
+    flex: 1;
+}
+
+.warning-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #991b1b;
+    margin-bottom: 8px;
+}
+
+.warning-description {
+    color: #7f1d1d;
+    margin-bottom: 16px;
+    line-height: 1.5;
+}
+
+.warning-actions {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.btn-danger {
+    background: #ef4444;
+    color: white;
+}
+
+.btn-danger:hover {
+    background: #dc2626;
+}
+
+.symptoms-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 32px;
+}
+
+.symptoms-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.symptoms-sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.symptoms-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.urgent-symptoms-section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.section-description {
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.urgent-symptoms-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.checkbox {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    margin-top: 2px;
+}
+
+.checkbox-label {
+    font-size: 14px;
+    color: #374151;
+    cursor: pointer;
+    line-height: 1.5;
+}
+
+.sidebar-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info-box {
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+.info-box-warning {
+    background-color: #fffbeb;
+    border-color: #fcd34d;
+}
+
+.info-box-info {
+    background-color: #eff6ff;
+    border-color: #93c5fd;
+}
+
+.info-box-danger {
+    background-color: #fef2f2;
+    border-color: #fca5a5;
+}
+
+.info-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.info-box-warning .info-title {
+    color: #92400e;
+}
+
+.info-box-info .info-title {
+    color: #1e40af;
+}
+
+.info-box-danger .info-title {
+    color: #991b1b;
+}
+
+.info-text {
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+.info-box-warning .info-text {
+    color: #78350f;
+}
+
+.info-box-info .info-text {
+    color: #1e3a8a;
+}
+
+.info-box-danger .info-text {
+    color: #7f1d1d;
+}
+
+.info-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+.info-list li {
+    margin-bottom: 4px;
+}
+
+.info-box-info .info-list {
+    color: #1e3a8a;
+}
+
+.info-box-danger .info-list {
+    color: #7f1d1d;
+}
+
+@media (max-width: 1024px) {
+    .symptoms-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .urgent-symptoms-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .symptoms-title {
+        font-size: 24px;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .warning-actions {
+        flex-direction: column;
+    }
+
+    .warning-actions .btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .warning-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}

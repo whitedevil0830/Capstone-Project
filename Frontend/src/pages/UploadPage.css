@@ -1,0 +1,427 @@
+.upload-page {
+    min-height: 100vh;
+    background-color: #f9fafb;
+}
+
+.upload-header {
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+    gap: 16px;
+}
+
+.back-link {
+    color: #6b7280;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.back-link:hover {
+    color: #3b82f6;
+}
+
+.upload-content {
+    padding: 32px 0;
+}
+
+.upload-header-section {
+    margin-bottom: 32px;
+}
+
+.upload-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 8px;
+}
+
+.upload-description {
+    color: #6b7280;
+    font-size: 16px;
+}
+
+.upload-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 32px;
+}
+
+.upload-main {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.upload-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.upload-zone {
+    border: 2px dashed #d1d5db;
+    border-radius: 12px;
+    padding: 48px 24px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.upload-zone:hover {
+    border-color: #3b82f6;
+    background-color: #f8fafc;
+}
+
+.upload-content-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.upload-icons {
+    display: flex;
+    gap: 16px;
+}
+
+.upload-icon {
+    font-size: 48px;
+}
+
+.upload-text {
+    text-align: center;
+}
+
+.upload-main-text {
+    font-size: 18px;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 8px;
+}
+
+.upload-sub-text {
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.file-input {
+    display: none;
+}
+
+.file-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.remove-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.remove-button:hover {
+    background-color: #f3f4f6;
+}
+
+.file-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.file-details {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    background-color: #f9fafb;
+    border-radius: 8px;
+}
+
+.file-icon {
+    font-size: 32px;
+}
+
+.file-meta {
+    flex: 1;
+}
+
+.file-name {
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 4px;
+}
+
+.file-size {
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.file-status {
+    background-color: #f3f4f6;
+    color: #374151;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.process-section {
+    margin-top: 16px;
+}
+
+.processing-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.progress-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #374151;
+}
+
+.progress-description {
+    color: #6b7280;
+    font-size: 12px;
+}
+
+.extracted-medications {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.medication-card {
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fafafa;
+}
+
+.medication-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.medication-name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.dosage-badge {
+    background-color: #e5e7eb;
+    color: #374151;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.medication-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.additional_advice-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.detail-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.detail-label {
+    color: #6b7280;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+
+.detail-value {
+    color: #111827;
+    font-weight: 600;
+}
+
+.medication-instructions {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.instructions-label {
+    color: #6b7280;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+
+.instructions-text {
+    color: #374151;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.notes-section {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.how-it-works-upload {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.step-item {
+    display: flex;
+    gap: 12px;
+}
+
+.step-icon {
+    font-size: 20px;
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+.step-content {
+    flex: 1;
+}
+
+.step-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 4px;
+}
+
+.step-description {
+    color: #000000;
+    font-size: medium;
+    line-height: 1.4;
+}
+
+.alert {
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    gap: 12px;
+}
+
+.alert-info {
+    background-color: #eff6ff;
+    border: 1px solid #93c5fd;
+}
+
+.alert-icon {
+    font-size: 16px;
+    flex-shrink: 0;
+}
+
+.alert-info .alert-icon {
+    color: #1e40af;
+}
+
+.alert-content {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.alert-info .alert-content {
+    color: #1e3a8a;
+}
+
+.supported-docs {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.doc-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #374151;
+}
+
+.doc-icon {
+    font-size: 16px;
+    color: #059669;
+}
+
+@media (max-width: 1024px) {
+    .upload-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .upload-title {
+        font-size: 24px;
+    }
+
+    .medication-details {
+        grid-template-columns: 1fr;
+    }
+
+    .upload-zone {
+        padding: 32px 16px;
+    }
+
+    .upload-icons {
+        gap: 12px;
+    }
+
+    .upload-icon {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .file-details {
+        flex-direction: column;
+        text-align: center;
+        gap: 12px;
+    }
+
+    .medication-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+}
