@@ -1,23 +1,23 @@
 /* HealthReportPage.css */
 
 .health-report-page {
-    /* max-width: 1700px;
+  /* max-width: 1700px;
     padding: 0 100px; */
-    margin: 20px auto;
-    font-family: Arial, sans-serif;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
 }
 
 .health-header-content {
-    background: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid #e5e7eb;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #e5e7eb;
 }
 
 .back-link {
-    color: #6b7280;
-    text-decoration: none;
-    font-size: 14px;
-    transition: color 0.3s ease;
+  color: #6b7280;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
 }
 
 .back-link:hover {
@@ -25,20 +25,21 @@
 }
 
 .welcome-section {
-    max-width: 1700px;
-    padding: 0 100px;
+  max-width: 1700px;
+  padding: 0 100px;
 }
 
 .welcome-title {
-    font-size: 30px;
-    font-weight: 700;
-    color: #111827;
-    margin-bottom: 8px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 8px;
 }
 
 .welcome-description {
-    color: #6b7280;
-    font-size: 16px;
+  color: #6b7280;
+  font-size: 16px;
+  margin-bottom: inherit;
 }
 
 .logo {
@@ -66,45 +67,44 @@ h1 p {
 }
 
 .btn {
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 4px;
+  padding: 12px 24px;
   border: none;
-  margin-top: 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 55px;
 }
 
 .btn-primary {
-  background-color: #007bff;
+  background: #000000;
   color: white;
-  border: 1px solid #007bff;
 }
 
 .btn-primary:hover {
-  background-color: #0056b3;
-  border-color: #0056b3;
-}
-
-.btn-secondary {
-  background-color: #6c757d;
-  color: white;
-  border: 1px solid #6c757d;
-}
-
-.btn-secondary:hover {
-  background-color: #565e64;
-  border-color: #565e64;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  transform: translateY(-2px);
+  border: 2px solid #000000;
 }
 
 .btn-outline {
-  background-color: transparent;
-  color: #007bff;
-  border: 1px solid #007bff;
+  background: transparent;
+  color: #000000;
+  border: 2px solid #000000;
 }
 
 .btn-outline:hover {
-  background-color: #007bff;
+  background: #000000;
+  border-color: #000000;
   color: white;
+  transform: translateY(-2px);
 }
 
 .pdf-preview-container {
@@ -112,7 +112,7 @@ h1 p {
   border: 1px solid #ddd;
   border-radius: 6px;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .pdf-actions {

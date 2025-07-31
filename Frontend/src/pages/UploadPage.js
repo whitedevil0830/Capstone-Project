@@ -98,6 +98,7 @@ const UploadPage = () => {
             return
         }
         try {
+            setIsProcessing(true);
             for (const med of extractedData) {
                 const response = await fetch("/reminders/create", {
                     method: "POST",
@@ -121,8 +122,12 @@ const UploadPage = () => {
                 }
             }
             alert("Medication reminders set successfully for all drugs in the prescription uploaded.")
+            setExtractedData([]);
+            setUploadedFile(null);
         } catch (error) {
             alert(error.message)
+        } finally {
+            setIsProcessing(false);
         }
     }
 
