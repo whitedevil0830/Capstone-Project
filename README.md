@@ -1,4 +1,4 @@
-# Capstone Project: AI-Based Disease Prediction and Report Generation
+# GoHealthy: Your health is our priority!
 
 This project consists of a **ReactJS** frontend, a **FastAPI** backend integrated with **SQLite** Database, which together provides the following benefits or features to the user.
 
