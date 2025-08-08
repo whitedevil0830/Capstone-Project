@@ -13,7 +13,7 @@ import healthMonitoringIcon from "../assets/icons/icons8-heart-with-pulse-96.png
 const LandingPage = () => {
     useEffect(() => {
         const typed = new Typed('.typewriter', {
-            strings: ['Your AI-Powered Health Companion', 'Co-Powered by Navikenz'],
+            strings: ['Your AI-Powered Health Companion', 'Co-Powered by Navikenz', 'Guided by Eduramp'],
             typeSpeed: 90,
             backSpeed: 90,
             loop: true,
@@ -28,7 +28,7 @@ const LandingPage = () => {
     const features = [
         {
             icon: <img src={stethoscopeIcon} alt="Icon" height={50} width={50}/>,
-            title: "AI Symptom Analysis",
+            title: "Symptom Analysis",
             description: "Advanced AI analyzes your symptoms to provide potential health insights",
         },
         {
@@ -39,16 +39,16 @@ const LandingPage = () => {
         {
             icon: <img src={reminderIcon} alt="Icon" height={50} width={50} />,
             title: "Smart Reminders",
-            description: "Upload prescriptions and get automated medication reminders",
+            description: "Upload prescriptions and get medication reminders",
         },
         {
             icon: <img src={healthProfileIcon} alt="Icon" height={50} width={50} />,
             title: "Personal Health Profile",
-            description: "Track your health history and get personalized recommendations",
+            description: "Track your personalized health history",
         },
         {
             icon: <img src={chatMessageIcon} alt="Icon" height={50} width={50} />,
-            title: "Expert AI Chat",
+            title: "AI Chat",
             description: "Chat with our AI for detailed drug information and health guidance",
         },
         {

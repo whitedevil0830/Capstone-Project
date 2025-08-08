@@ -146,7 +146,9 @@ const PredictionPage = () => {
                                     <Link to="/disclaimer" className="btn btn-primary w-full">
                                         Get Medication Info
                                     </Link>
-                                    <button className="btn btn-outline w-full"> Save to Health Records</button>
+                                    <Link to="/health-report" className="btn btn-outline w-full">
+                                        Generate your Health Report
+                                    </Link>
                                     <button className="btn btn-outline w-full"> Find Nearby Doctors</button>
                                     <Link to="/symptoms" className="btn btn-outline w-full">
                                         Check New Symptoms
